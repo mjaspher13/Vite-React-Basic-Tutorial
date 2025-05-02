@@ -56,7 +56,7 @@ SlideDetailsSection.propTypes = {
   ).isRequired,
 };
 
-DetailsSection.defaultProps = {
+SlideDetailsSection.defaultProps = {
   layoutOpts: { spans: { small: 2, medium: 4, large: 6, xlarge: 8 } },
 };
 
