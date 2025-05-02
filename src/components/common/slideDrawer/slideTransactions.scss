@@ -1,0 +1,42 @@
+@use '@usb-shield/design-tokens/dist/responsive-web/usb-light/usb-light.scss';
+
+.card_details-label {
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 20px 0 1rem 1rem;
+}
+
+.form-control__search input[type=search]{
+  visibility: visible;
+}
+
+.card__transactions-label{
+  margin: 16px 0;
+  height: 42px;
+  background-color: #EBEFF6;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 100%;
+}
+
+.card__transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__transaction-merchantName {
+  font-weight: bold;
+  width: 100%;
+}
+
+.card__transaction-transactionAmount {
+  text-align: right;
+  // border: 1px solid red;
+  width: 100%;
+}
+
+.usb-accordion .accordion-panel__header-title {
+  width: 90%;
+}

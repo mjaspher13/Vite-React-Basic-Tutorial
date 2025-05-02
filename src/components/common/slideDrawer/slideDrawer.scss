@@ -1,0 +1,45 @@
+#edit__details {
+    color: rgb(35, 90, 228) !important;
+    border: 1px solid rgb(35, 90, 228) !important;
+    background-color: transparent !important;
+  }
+  
+  #view__transactions,
+  #edit__details {
+    width: 179px;
+    height: 40px;
+  }
+  
+  #deactivate {
+    width: 91px;
+    height: 50px;
+  }
+  
+  .activeCardsContainer {
+    .usb-drawer.activeCards_drawer {
+      .usb-modal-v2--body {
+        max-height: 83vh !important;
+        padding: 0 !important;
+      }
+    }
+  
+    .card_drawer-body-padding {
+      padding: 0 16px !important;
+    }
+  
+    .card_drawer-body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .usb-modal-v2--footer {
+      max-height: 60px !important;
+    }
+  
+    .usb-modal-v2--header {
+      padding: 0.5rem 1rem 0 !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+  

@@ -1,0 +1,103 @@
+.card__drawer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card__details {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #f5f5fa;
+    margin-bottom: 1rem;
+  }
+  
+  .card__info-label {
+    font-weight: bold;
+  }
+  
+  .card__info-text {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin: 0 0 5px 0;
+  }
+  
+  .card__number {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  
+  .card__button {
+    width: 343px;
+    margin: 10px 0;
+    color: rgb(35, 90, 228) !important;
+    border: 1px solid rgb(35, 90, 228) !important;
+    background-color: transparent !important;
+  }
+  
+  .card__details-label {
+    font-size: 16px;
+    align-self: flex-start;
+    margin: 20px 0 1rem 1rem;
+  }
+  
+  .card-details {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    color: white;
+    padding: 0 16px;
+  }
+  
+  .card__details-header {
+    font-size: 16px;
+    align-self: flex-start;
+    margin: 0 1rem 0;
+  }
+  
+  .card__details-subheader {
+    width: 100%;
+    padding: 8px 0 0 16px;
+  }
+  
+  .card__details-subtitle {
+    text-align: left;
+  }
+  
+  .card__details-padding {
+    padding: 8px 16px 0 16px;
+    margin: 0 0;
+    width: 100%;
+  }
+  
+  .card__details-section {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  
+  .card__text-area {
+    width: 100% !important;
+    // height: 100px;
+    // padding: 8px;
+    // border: 1px solid #d1d1d1;
+    // border-radius: 5px;
+  }
+  
+  #drawer-header-id {
+    margin: 0 0 1rem 0;
+    text-transform: none;
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
+    color: #2e2e32;
+    font-family: Circular-USB, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  
+  .card__info-icon-show {
+    margin: 4px 8px;
+    align-items: center;
+  }
+  
